@@ -1,0 +1,172 @@
+
+.custom-table {
+  border-collapse: collapse;
+  margin: auto;
+  border-spacing: 0;
+  width: 800px;
+  border: 4px groove #999;
+  border-radius: 10px;
+  max-height: 400px; /* Altura máxima em pixels */
+  overflow-y: auto;
+}
+
+.custom-table td, .custom-table th {
+  min-width: 100px; /* Largura mínima da célula */
+  max-width: 200px; /* Largura máxima da célula */
+  font-size: 20px;
+  text-align: center;
+}
+
+.custom-table td:hover {
+  background-color: #ffc; /* Cor de fundo ao passar o mouse */
+}
+
+.custom-table th {
+  background-color: #f2f2f2; /* Cor de fundo */
+  color: #333; /* Cor do texto */
+  font-weight: bold; /* Negrito */
+  text-transform: uppercase; /* Transformação de texto em maiúsculas */
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #e6e6e6; /* Cor de fundo para linhas alternadas */
+  color: #333; /* Cor do texto */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.custom-table td {
+  color: #060606; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno */
+}
+
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #cbc8c8;
+}
+
+.bt {
+  border: none; /* Remover borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibir como bloco em linha */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Cursor do mouse */
+  border-radius: 8px; /* Raio da borda */
+}
+.bt:hover {
+  background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+.bt1 {
+  border: none; /* Remover borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibir como bloco em linha */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Cursor do mouse */
+  border-radius: 8px; /* Raio da borda */
+}
+.bt1:hover {
+  background-color: pink; /* Cor de fundo ao passar o mouse */
+}
+
+.bt2 {
+  border: none; /* Remover borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibir como bloco em linha */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Cursor do mouse */
+  border-radius: 8px; /* Raio da borda */
+}
+.bt2:hover {
+  background-color: purple; /* Cor de fundo ao passar o mouse */
+}
+
+.bt3 {
+  border: none; /* Remover borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibir como bloco em linha */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Cursor do mouse */
+  border-radius: 8px; /* Raio da borda */
+}
+.bt3:hover {
+  background-color: red; /* Cor de fundo ao passar o mouse */
+}
+
+.bt4 {
+  border: none; /* Remover borda */
+  padding: 10px 20px; /* Espaçamento interno */
+  text-align: center; /* Alinhamento de texto */
+  text-decoration: none; /* Remover sublinhado */
+  display: inline-block; /* Exibir como bloco em linha */
+  font-size: 16px; /* Tamanho da fonte */
+  margin: 4px 2px; /* Margem externa */
+  cursor: pointer; /* Cursor do mouse */
+  border-radius: 8px; /* Raio da borda */
+}
+.bt4:hover {
+  background-color: blue; /* Cor de fundo ao passar o mouse */
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
